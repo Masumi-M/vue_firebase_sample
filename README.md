@@ -68,3 +68,33 @@ Now using alias staging (vue-firebase-sample-d98cb)
 </style>
 ```
 
+## Semantic-UI
+1. `npm install semantic-ui --save`
+<!-- 2. `cd semantic/ && gulp build` -->
+3. `npm install jquery --save`
+4. `npm install style-loader --save-dev`
+5. Add code in `src/main.js`
+```
+import '../semantic/dist/semantic.css';
+import '../semantic/dist/semantic.js';
+```
+
+## Bug
+If your page doesn't update, check the `firebase.json`.
+```
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}
+```
+
