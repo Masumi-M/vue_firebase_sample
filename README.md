@@ -68,14 +68,32 @@ Now using alias staging (vue-firebase-sample-d98cb)
 </style>
 ```
 
-## Semantic-U
-1. `npm install semantic-ui --save`
-2. `cd semantic/ && gulp build`
-```
-? Set-up Semantic UI Automatic (Use default locations and all components)
-? We detected you are using NPM Nice! Is this your project folder? /Users/m
-asumi.morishige/Documents/Document/PGM/vue/vue_firebase_sample Yes
-? Where should we put Semantic UI inside your project? semantic/
+## Semantic-ui
+1. `npm install semantic-ui-vue --save`
+2. `npm install semantic-ui-css --save`
+3. Add the next code in `src/main.js`.
+```js:main.js
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue'
+import App from './App'
+import router from './router'
+import SuiVue from 'semantic-ui-vue';
+import 'semantic-ui-css/semantic.min.css';
+
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  router,
+  components: {
+    App
+  },
+  template: '<App/>'
+})
+
+Vue.use(SuiVue);
 ```
 
 ## Delete \#
