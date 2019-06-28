@@ -70,13 +70,26 @@ Now using alias staging (vue-firebase-sample-d98cb)
 
 ## Semantic-UI
 1. `npm install semantic-ui --save`
-<!-- 2. `cd semantic/ && gulp build` -->
-3. `npm install jquery --save`
+2. `cd semantic/ && gulp build`
+<!-- 3. `npm install jquery --save`
 4. `npm install style-loader --save-dev`
 5. Add code in `src/main.js`
 ```
 import '../semantic/dist/semantic.css';
 import '../semantic/dist/semantic.js';
+``` -->
+
+## Delete \#
+1. Add `mode: 'history'` in `src/router/index.js`.
+```
+export default new Router({
+  mode: 'history',
+  routes: [{
+    path: '/',
+    name: 'HelloWorld',
+    component: HelloWorld
+  }]
+})
 ```
 
 ## Bug
