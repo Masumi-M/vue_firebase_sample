@@ -68,16 +68,15 @@ Now using alias staging (vue-firebase-sample-d98cb)
 </style>
 ```
 
-## Semantic-UI
+## Semantic-U
 1. `npm install semantic-ui --save`
 2. `cd semantic/ && gulp build`
-<!-- 3. `npm install jquery --save`
-4. `npm install style-loader --save-dev`
-5. Add code in `src/main.js`
 ```
-import '../semantic/dist/semantic.css';
-import '../semantic/dist/semantic.js';
-``` -->
+? Set-up Semantic UI Automatic (Use default locations and all components)
+? We detected you are using NPM Nice! Is this your project folder? /Users/m
+asumi.morishige/Documents/Document/PGM/vue/vue_firebase_sample Yes
+? Where should we put Semantic UI inside your project? semantic/
+```
 
 ## Delete \#
 1. Add `mode: 'history'` in `src/router/index.js`.
