@@ -46,55 +46,6 @@
             </a>
           </div>
         </div>
-        <div id="RightMenu">
-          <div class="ui dropdown item">
-            <i class="share alternate icon"></i>
-            <div class="menu">
-              <a
-                class="item"
-                href="https://itunes.apple.com/jp/developer/masumi-morishige/id1437701072"
-                target="_blank"
-              >
-                <i class="app store ios icon"></i>apple-store
-              </a>
-              <a
-                class="item"
-                href="https://play.google.com/store/apps/dev?id=6043692952300374835"
-                target="_blank"
-              >
-                <i class="google play icon"></i>google-play
-              </a>
-              <a class="item" href="https://twitter.com/umi_mori_jp" target="_blank">
-                <i class="twitter icon"></i>twitter
-              </a>
-              <a
-                class="item"
-                href="mailto:masumi.developer@gmail.com?subject=ポートフォリオからのお問い合わせ&body=【氏名】：%0D%0A【概要】：%0D%0A【本文】：%0D%0A"
-              >
-                <i class="envelope icon"></i>mail
-              </a>
-              <a class="item" href="https://qiita.com/umi_mori" target="_blank">
-                <i class="search icon"></i>qiita
-              </a>
-              <a class="item" href="https://github.com/Masumi-M" target="_blank">
-                <i class="github icon"></i>github
-              </a>
-            </div>
-          </div>
-
-          <div id="smallFlag">
-            <div class="ui button green" onclick="jumpToSupport()">
-              <i class="flag icon"></i>
-            </div>
-          </div>
-
-          <div class="ui labeled button small" id="bigFlag" tabindex="0" onclick="jumpToSupport()">
-            <div class="ui green button small">
-              <i class="flag icon"></i>
-            </div>
-            <a class="ui basic green left pointing label small">Support</a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
