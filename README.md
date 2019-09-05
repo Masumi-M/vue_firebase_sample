@@ -1,6 +1,7 @@
 # vue_firebase_sample
 Sample Project using vue.js and firebase.
 Hosting Site: https://vue-firebase-sample-d98cb.firebaseapp.com/
+Github Site: https://github.com/Masumi-M/vue_firebase_sample
 
 ## Build Setup
 
@@ -59,7 +60,7 @@ Created alias staging for vue-firebase-sample-d98cb.
 Now using alias staging (vue-firebase-sample-d98cb)
 ```
 
-## Sass
+### Sass
 1. `npm install --save node-sass sass-loader axios`
 2. Change the css file
 ```html
@@ -68,7 +69,7 @@ Now using alias staging (vue-firebase-sample-d98cb)
 </style>
 ```
 
-## Delete \#
+### Delete \#
 1. Add `mode: 'history'` in `src/router/index.js`.
 ```js
 export default new Router({
@@ -81,7 +82,7 @@ export default new Router({
 })
 ```
 
-## Bug
+### Bug
 If your page doesn't update, check the `firebase.json`.
 ```json
 {
