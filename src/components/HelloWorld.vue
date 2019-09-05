@@ -15,7 +15,7 @@
       <li>
         <a href="https://twitter.com/vuejs" target="_blank">Twitter</a>
       </li>
-      <br>
+      <br />
       <li>
         <a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a>
       </li>
