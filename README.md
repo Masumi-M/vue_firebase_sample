@@ -1,7 +1,7 @@
 # vue_firebase_sample
-Sample Project using vue.js and firebase.
-Hosting Site: https://vue-firebase-sample-d98cb.firebaseapp.com/
-Github Site: https://github.com/Masumi-M/vue_firebase_sample
+Sample Project using vue.js and firebase.<br>
+Hosting Site: https://vue-firebase-sample-d98cb.firebaseapp.com/<br>
+Github Site: https://github.com/Masumi-M/vue_firebase_sample<br>
 
 ## Build Setup
 
